@@ -1,6 +1,8 @@
 # include <stdio.h>
 /**
- *main function is the major function and should always return 0
+ *main function - entry point
+ *
+ *return -value is 0 (success)
 */
 int main(void) 
 {
