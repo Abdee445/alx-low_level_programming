@@ -1,12 +1,12 @@
 # include <stdio.h>
 /**
- *main function - entry point
+ * main - entry point
  *
- *return -value is 0 (success)
-*/
+ * return - always 0 (success)
+ */
 int main(void)
 {
-	char Mystr[] = "Programming is like building a multilingual puzzle\n";
+	char Mystr[] = "\"Programming is like building a multilingual puzzle\n";
 
 	puts(Mystr);
 	return (0);
