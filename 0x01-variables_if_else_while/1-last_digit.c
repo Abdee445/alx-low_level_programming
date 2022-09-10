@@ -3,15 +3,16 @@
 #include <time.h>
 
 /*
- *main - entry point
+ *main - Entry point
  *
- *Return = Always 0 (Success)
+ *Return : Always 0 (Success)
  */
 
 int main(void)
 {
 	int n;
 	int a;
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	a = n % 10;
