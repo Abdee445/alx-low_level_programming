@@ -20,7 +20,8 @@ int main(void)
 	while (alphabets <= 'f')
 	{
 		putchar(alphabets);
+		alphabets++
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
