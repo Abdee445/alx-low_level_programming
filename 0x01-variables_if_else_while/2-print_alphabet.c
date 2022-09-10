@@ -1,0 +1,21 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+
+/**
+ * main -Entry point
+ *
+ * Reurn: Alway 0 (Success)
+ */
+
+int main(void)
+{
+	char alphabet = 'a';
+	while(alphabet <= 'z')
+	{
+		putchar(alphabet);
+		putchar('\n');
+		alphabet++;
+	}
+	return (0);
+}
