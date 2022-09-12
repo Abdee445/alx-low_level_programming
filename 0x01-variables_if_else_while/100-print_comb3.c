@@ -8,14 +8,15 @@
  */
 int main(void)
 {
-	int d1, d2;
-	for (d1 = 0; d1 < 9; d1++)
+	int tens, units;
+	
+	for (tens = 0; tens < 9; tens++)
 	{
-		for (d2 = d1 + 1; d2 < 10; d2++)
+		for (units = tens + 1; units < 10; units++)
 		{
-			putchar((d1 % 10) + '0');
-			putchar((d2 % 10) + '0');
-			if (d1 == 8 && d2 == 9)
+			putchar((tens % 10) + '0');
+			putchar((units % 10) + '0');
+			if (tens == 8 && units == 9)
 				continue;
 			putchar(',');
 			putchar(' ');
