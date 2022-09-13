@@ -9,9 +9,9 @@ int main(void)
 {
 	int tens, units;
 
-	for (tens = 0; tens <= 98; tens++)	
+	for (tens = 0; tens <= 98; tens++)
 	{
-		for (units = tens + 1; units <= 99; units++)	
+		for (units = tens + 1; units <= 99; units++)
 		{
 			putchar((tens / 10) + '0');
 			putchar((tens % 10) + '0');
@@ -21,9 +21,9 @@ int main(void)
 			if (tens == 98 && units == 99)
 				continue;
 			putchar(',');
-			putchar(' ');	
-		}	
+			putchar(' ');
+		}
 	}
 	putchar('\n');
-	return (0);	
+	return (0);
 }
