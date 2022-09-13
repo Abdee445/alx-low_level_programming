@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * main -Entry point
+ * print_alphabet - a function that prints the alphabet, in lowercase
  *
- * print_alphabet - sends the arguments passed to standard
  */
-
 void print_alphabet(void)
 {
 	char alphabet = 'a';
