@@ -1,0 +1,25 @@
+#include "main.h"
+/**
+ * Comment
+ *
+ */
+
+void print_alphabet_x10(void)
+{
+	int loops;
+
+	for (loops = 0; loops <= 5; loops++)
+	{
+		char alphabets = 'a';
+		
+		while (alphabets <= 'z')
+		{
+			_putchar(alphabets);
+			alphabets++;
+		}
+		{
+			_putchar('\n');
+		}
+	}
+}
+		
