@@ -2,10 +2,10 @@
 /**
  * main -Entry point
  *
- * print(alphabet): uses _putschar
+ * print_alphabet - uses _putschar
  */
 
-void print_alphabet(void)	
+void print_alphabet(void)
 {
 	char alphabet = 'a';
 
