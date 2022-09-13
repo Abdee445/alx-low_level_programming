@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Comment
+ * print_alphabet_x10 - function that sends 10x alphabets to std output
  *
  */
 
@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 	for (loops = 0; loops <= 9; loops++)
 	{
 		char alphabets = 'a';
-		
+
 		while (alphabets <= 'z')
 		{
 			_putchar(alphabets);
@@ -22,4 +22,3 @@ void print_alphabet_x10(void)
 		}
 	}
 }
-		
