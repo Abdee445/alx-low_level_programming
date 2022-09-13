@@ -2,7 +2,7 @@
 /**
  * main -Entry point
  *
- * print_alphabet - uses _putschar
+ * print_alphabet - sends the arguments passed to standard
  */
 
 void print_alphabet(void)
