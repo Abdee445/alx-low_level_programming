@@ -8,7 +8,7 @@ void print_alphabet_x10(void)
 {
 	int loops;
 
-	for (loops = 0; loops <= 10; loops++)
+	for (loops = 0; loops <= 9; loops++)
 	{
 		char alphabets = 'a';
 		
