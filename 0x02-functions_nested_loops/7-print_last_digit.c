@@ -1,7 +1,7 @@
 #include "main.h"
 /**
+ * print_last_digit: a function that prints the last digit of a number
  * units - print the last digit
- * print_last_digit - a function to print units
  * @num: number to bw passed
  * _putchar: send item to standard outout
  * Return: p if int s positive or zero, - if int is negative,
