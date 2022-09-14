@@ -6,7 +6,7 @@
  * _putchar: send item to standard outout
  * Return: p if int s positive or zero, - if int is negative,
  */
-int print_last_digit(int num);
+int print_last_digit(int num)
 {
 	int units;
 
