@@ -5,9 +5,8 @@
  */
 int add(int a, int b)
 {
-	a = 10;
-	b = 15;
+	int c = a + b;
 
-	_putchar(a + b);
-	return(0);
+	_putchar(c);
+	return(c);
 }
