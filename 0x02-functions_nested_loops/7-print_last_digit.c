@@ -17,5 +17,5 @@ int print_last_digit(int num)
 		units = (-1 * units);
 	}
 	_putchar(units + '0');
-	return (last);
+	return (units);
 }
