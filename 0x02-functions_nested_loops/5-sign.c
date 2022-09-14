@@ -3,7 +3,7 @@
  * print_sign - print the sign of an int
  *
  * _putchar - send value to standard output
- * Ap: number to be checked
+ * @p: number to be checked
  * Return: + if int s positive, - if int is negative, and 0 if int is 0
  */
 int print_sign(int p)
