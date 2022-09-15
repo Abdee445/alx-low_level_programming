@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 /**
  * main - causes an infinite loop
  * Return: 0
- * while loop was the culprit
  * printf - function used to print
  */
 
@@ -22,6 +20,5 @@ int main(void)
  *	}
  */
 	printf("Infinite loop avoided! \\o/\n");
-
 	return (0);
 }
