@@ -2,7 +2,7 @@
 /**
  * main - causes an infinite loop
  * Return: 0
- * printf - function used to print
+ * printf: function used to print
  */
 
 int main(void)
