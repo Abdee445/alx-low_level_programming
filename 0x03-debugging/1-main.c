@@ -4,7 +4,7 @@
  * main - causes an infinite loop
  * Return: 0
  * while loop was the culprit
- * printf - used to print
+ * printf - function used to print
  */
 
 int main(void)
