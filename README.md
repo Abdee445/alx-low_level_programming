@@ -1,1 +1,1 @@
-repo for new C task
+functions and loops
