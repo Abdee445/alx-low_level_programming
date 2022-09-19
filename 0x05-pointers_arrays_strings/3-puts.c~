@@ -1,0 +1,10 @@
+#inclde "main.h"
+/**
+ * _puts - function to print str
+ * @str: string to be inputed
+ * return: void in this case
+ */
+void _puts(char *str)
+{
+	
+}
