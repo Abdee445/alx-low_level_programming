@@ -11,6 +11,8 @@ int main(int argc __attribute__((unused)), char *argv[])
 {
 	int i = atoi(argv[1]) * atoi(argv[2]);
 
+	if argv[]
+
 	printf("%d\n", i);
 	return (0);
 }
